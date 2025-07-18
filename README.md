@@ -67,7 +67,7 @@
 1. 本GASスクリプトをGoogle Apps Scriptプロジェクトに貼り付けます。
 2. スクリプト内の定数 (MY_EMAIL, ADDITIONAL_CC, MY_SIGNATURE, EXCLUDE_LIST_SPREADSHEET_ID, EXCLUDE_ADDRESS_SHEET_NAME, EXCLUDE_DOMAIN_SHEET_NAME, MY_COMPANY_DOMAIN) を自身の環境に合わせて設定します。
 3. OpenAI APIキーをスクリプトプロパティに設定します。（キー: OPENAI_API_KEY, 値: あなたのAPIキー）
-4. 除外リスト用のGoogleスプレッドシートを作成し、「除外アドレス」シートと「除外ドメイン」シートにそれぞれ除外したいメールアドレスおよびドメインをA列に記述します。
+4. 除外リスト用のGoogleスプレッドシートを作成し、「除外アドレス」シートと「除外ドメイン」シートにそれぞれ除外したいメールアドレスおよびドメインをA列に記述します。トリガー設定前に大まかに除外リストを設定することをおすすめします。
 5. checkAndDraftReply 関数に対し、タイムドリブントリガーを設定し、任意の頻度で自動実行されるようにします。
 
 ---
