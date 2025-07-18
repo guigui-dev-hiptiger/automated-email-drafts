@@ -57,7 +57,7 @@
 - EXCLUDE_LIST_SPREADSHEET_ID: 除外リストが記述されたスプレッドシートのIDを設定します。
 - EXCLUDE_ADDRESS_SHEET_NAME: 除外メールアドレスが記述されたシート名を指定します。
 - EXCLUDE_DOMAIN_SHEET_NAME: 除外ドメインが記述されたシート名を指定します。
-- MY_COMPANY_DOMAIN: 自社ドメインを設定します（例: cysista.co.jp）。
+- MY_COMPANY_DOMAIN: 自社ドメインを設定します（例: xxxxx.co.jp）。
 - OpenAI APIキーはスクリプトプロパティ (PropertiesService) から安全に取得されます。
 
 ---
